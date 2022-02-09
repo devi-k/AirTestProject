@@ -242,8 +242,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     notFoundMessage.hidden = !allRowsHidden;
 }
 </script>
-    <h1>report.html</h1>
-    <p>Report generated on 08-Feb-2022 at 01:02:52 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <h1>Report.html</h1>
+    <p>Report generated on 09-Feb-2022 at 04:07:06 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.8.0</td></tr></table>
     <h2>Summary</h2>
-    <p>0 tests ran in 161.30 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 439.97 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -270,4 +270,969 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable" col="duration">Duration</th>
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
-          <th colspan="4">No results found. Try to check the filters</th></tr></thead></table></body></html>
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Login_test.py::test_login</td>
+          <td class="col-duration">152.81</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -----------------------------Captured stderr setup------------------------------ <br/>[03:59:46][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+[03:59:46][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+[03:59:46][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 wait-for-device
+[03:59:46][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.sdk
+[03:59:46][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 install C:/Users/RH0539/Downloads/WorldWinner.apk
+[03:59:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell monkey -p com.gsn.worldwinner -c android.intent.category.LAUNCHER 1
+<br/> -------------------------------Captured log setup------------------------------- <br/>DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 wait-for-device
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.sdk
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 install C:/Users/RH0539/Downloads/WorldWinner.apk
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell monkey -p com.gsn.worldwinner -c android.intent.category.LAUNCHER 1<br/> ------------------------------Captured stderr call------------------------------ <br/>[04:01:54][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288126045.png)
+[04:01:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls /data/local/tmp/minicap
+[04:01:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls /data/local/tmp/minicap.so
+[04:01:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2&gt;&amp;1
+[04:01:54][ERROR]&lt;airtest.core.android.cap_methods.minicap&gt; stdout[b&#x27;CANNOT LINK EXECUTABLE &quot;/data/local/tmp/minicap&quot;: &quot;/data/local/tmp/minicap&quot; has text relocations (https://android.googlesource.com/platform/bionic/+/master/android-changes-for-ndk-developers.md#Text-Relocations-Enforced-for-API-level-23)\r\n&#x27;] stderr[b&#x27;&#x27;]
+[04:01:54][DEBUG]&lt;airtest.core.android.cap_methods.minicap&gt; upgrade minicap to lastest version: -1-&gt;5
+[04:01:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell rm -r /data/local/tmp/minicap*
+[04:01:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.product.cpu.abi
+[04:01:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.preview_sdk
+[04:01:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.release
+[04:01:54][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 push C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\stf_libs\x86\minicap /data/local/tmp/minicap
+[04:01:55][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell chmod 755 /data/local/tmp/minicap
+[04:01:55][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 push C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\stf_libs\minicap-shared/aosp/libs/android-30/x86/minicap.so /data/local/tmp/minicap.so
+[04:01:55][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell chmod 755 /data/local/tmp/minicap.so
+[04:01:55][INFO]&lt;airtest.core.android.cap_methods.minicap&gt; minicap installation finished
+[04:01:55][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls -l /data/local/tmp/rotationwatcher.jar
+[04:01:55][DEBUG]&lt;airtest.core.android.rotation&gt; install_rotationwatcher skipped
+[04:01:55][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+[04:01:55][DEBUG]&lt;airtest.utils.nbsp&gt; [rotation_server]b&#x27;0&#x27;
+[04:01:56][INFO]&lt;airtest.core.android.rotation&gt; update orientation None-&gt;0
+[04:01:56][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell wm size
+[04:01:56][DEBUG]&lt;airtest.core.android.cap_methods.minicap&gt; update_rotation: 0
+[04:01:56][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.sf.lcd_density
+[04:01:56][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop qemu.sf.lcd_density
+[04:01:56][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys SurfaceFlinger
+[04:01:56][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys input
+[04:01:56][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getevent -p
+[04:01:56][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n &#x27;airtest_minicap&#x27; -P 1440x2560@1440x2560/0 -s
+[04:01:57][ERROR]&lt;airtest.core.android.cap_methods.screen_proxy&gt; b&#x27;&#x27;
+[04:01:57][ERROR]&lt;airtest.core.android.cap_methods.screen_proxy&gt; b&#x27;CANNOT LINK EXECUTABLE &quot;/data/local/tmp/minicap&quot;: &quot;/data/local/tmp/minicap&quot; has text relocations (https://android.googlesource.com/platform/bionic/+/master/android-changes-for-ndk-developers.md#Text-Relocations-Enforced-for-API-level-23)\r\n&#x27;
+[04:01:57][ERROR]&lt;airtest.core.android.cap_methods.screen_proxy&gt; Minicap setup up failed!
+[04:01:57][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys package com.netease.nie.yosemite
+[04:01:57][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 forward --no-rebind tcp:19346 localabstract:javacap_19346
+[04:01:57][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell pm path com.netease.nie.yosemite
+[04:01:57][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell CLASSPATH=/data/app/~~o0yi9_njiyb8RRLJBXpqbQ==/com.netease.nie.yosemite-SlQIkhPM5-VbLUUZadywVQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_19346 -lazy 2&gt;&amp;1
+[04:01:58][DEBUG]&lt;airtest.utils.nbsp&gt; [javacap_sever]b&#x27;Capture server listening on @javacap_19346&#x27;
+[04:01:58][DEBUG]&lt;airtest.core.android.cap_methods.javacap&gt; (1, 3, 0, 1440, 2560, 0, 0, 0, 1)
+[04:01:58][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:01:59][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (746, 1178), &#x27;rectangle&#x27;: ((86, 118), (86, 2238), (1407, 2238), (1407, 118)), &#x27;confidence&#x27;: 0.7766159176826477}
+[04:01:59][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.14 s.
+[04:01:59][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (746, 1178), &#x27;rectangle&#x27;: ((86, 118), (86, 2238), (1407, 2238), (1407, 118)), &#x27;confidence&#x27;: 0.7766159176826477, &#x27;time&#x27;: 1.1408464908599854}
+[04:01:59][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288160934.png)
+[04:01:59][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:01:59][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (166, 1850), &#x27;rectangle&#x27;: ((124.60000000000002, 1787.8000000000002), (124.60000000000002, 1912.8000000000002), (207.60000000000002, 1912.8000000000002), (207.60000000000002, 1787.8000000000002)), &#x27;confidence&#x27;: 0.9999997615814209}
+[04:01:59][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.00 s.
+[04:01:59][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (166, 1850), &#x27;rectangle&#x27;: ((124.60000000000002, 1787.8000000000002), (124.60000000000002, 1912.8000000000002), (207.60000000000002, 1912.8000000000002), (207.60000000000002, 1787.8000000000002)), &#x27;confidence&#x27;: 0.9999997615814209, &#x27;time&#x27;: 0.003406524658203125}
+[04:01:59][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls -l /data/local/tmp/maxpresent.jar
+[04:01:59][DEBUG]&lt;airtest.core.android.touch_methods.maxtouch&gt; install_maxtouch skipped
+[04:01:59][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 forward --no-rebind tcp:12143 localabstract:maxpresent_12143
+[04:01:59][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_12143
+[04:02:00][DEBUG]&lt;airtest.utils.nbsp&gt; [airtouch_server]b&#x27;Metrics Message : 2560.0=====1440.0&#x27;
+[04:02:00][DEBUG]&lt;airtest.utils.nbsp&gt; [airtouch_server]b&#x27;Start local socket (maxpresent_12143) server...&#x27;
+[04:02:00][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288172352.png)
+[04:02:00][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:00][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (701, 2212), &#x27;rectangle&#x27;: ((344, 2112.56), (344, 2311.56), (1058, 2311.56), (1058, 2112.56)), &#x27;confidence&#x27;: 0.7243560552597046}
+[04:02:00][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.49 s.
+[04:02:00][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (701, 2212), &#x27;rectangle&#x27;: ((344, 2112.56), (344, 2311.56), (1058, 2311.56), (1058, 2112.56)), &#x27;confidence&#x27;: 0.7243560552597046, &#x27;time&#x27;: 0.4861447811126709}
+[04:02:00][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288179250.png)
+[04:02:01][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:01][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 2218), &#x27;rectangle&#x27;: ((383.32000000000005, 2121.88), (383.32000000000005, 2314.88), (998.32, 2314.88), (998.32, 2121.88)), &#x27;confidence&#x27;: 0.7418957352638245}
+[04:02:01][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.45 s.
+[04:02:01][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (690, 2218), &#x27;rectangle&#x27;: ((383.32000000000005, 2121.88), (383.32000000000005, 2314.88), (998.32, 2314.88), (998.32, 2121.88)), &#x27;confidence&#x27;: 0.7418957352638245, &#x27;time&#x27;: 0.4527854919433594}
+[04:02:01][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288260454.png)
+[04:02:01][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:02][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (667, 1451), &#x27;rectangle&#x27;: ((122, 1203.52), (122, 1699.52), (1213, 1699.52), (1213, 1203.52)), &#x27;confidence&#x27;: 0.2715206742286682}
+[04:02:02][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.89 s.
+[04:02:02][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:02:03][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (729, 665), &#x27;rectangle&#x27;: ((108, 382), (108, 948), (1351, 948), (1351, 382)), &#x27;confidence&#x27;: 0.2429446578025818}
+[04:02:03][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.21 s.
+[04:02:03][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:02:04][DEBUG]&lt;airtest.core.api&gt; &#x27;Target area is 5 times bigger or 0.2 times smaller than sch_img.&#x27;
+[04:02:04][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:02:04][DEBUG]&lt;airtest.aircv.keypoint_base&gt; [BRISK] threshold=0.7, result={&#x27;result&#x27;: (491, 1650), &#x27;rectangle&#x27;: [(330, 1230), (330, 2071), (653, 2071), (653, 1230)], &#x27;confidence&#x27;: 0.48958372231572866}
+[04:02:04][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.45 s.
+[04:02:04][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:02:05][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:06][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636}
+[04:02:06][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.54 s.
+[04:02:06][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636, &#x27;time&#x27;: 0.5435676574707031}
+[04:02:06][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288260454.png)
+[04:02:06][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:06][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636}
+[04:02:06][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.56 s.
+[04:02:06][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636, &#x27;time&#x27;: 0.5643949508666992}
+[04:02:06][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288272785.png)
+[04:02:06][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:07][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (725, 1400), &#x27;rectangle&#x27;: ((533.2, 1335.96), (533.2, 1465.96), (918.2, 1465.96), (918.2, 1335.96)), &#x27;confidence&#x27;: 0.7225582599639893}
+[04:02:07][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.60 s.
+[04:02:07][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (725, 1400), &#x27;rectangle&#x27;: ((533.2, 1335.96), (533.2, 1465.96), (918.2, 1465.96), (918.2, 1335.96)), &#x27;confidence&#x27;: 0.7225582599639893, &#x27;time&#x27;: 0.5950181484222412}
+[04:02:07][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288283062.png)
+[04:02:07][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:08][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1228, 104), &#x27;rectangle&#x27;: ((1110.32, 71), (1110.32, 137), (1347.32, 137), (1347.32, 71)), &#x27;confidence&#x27;: 0.7525858879089355}
+[04:02:08][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.15 s.
+[04:02:08][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1228, 104), &#x27;rectangle&#x27;: ((1110.32, 71), (1110.32, 137), (1347.32, 137), (1347.32, 71)), &#x27;confidence&#x27;: 0.7525858879089355, &#x27;time&#x27;: 0.15307140350341797}
+[04:02:08][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288305866.png)
+[04:02:08][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:08][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1233, 103), &#x27;rectangle&#x27;: ((1124.6399999999999, 64), (1124.6399999999999, 142), (1341.6399999999999, 142), (1341.6399999999999, 64)), &#x27;confidence&#x27;: 0.7221882343292236}
+[04:02:08][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.12 s.
+[04:02:08][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1233, 103), &#x27;rectangle&#x27;: ((1124.6399999999999, 64), (1124.6399999999999, 142), (1341.6399999999999, 142), (1341.6399999999999, 64)), &#x27;confidence&#x27;: 0.7221882343292236, &#x27;time&#x27;: 0.11678719520568848}
+[04:02:08][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288502690.png)
+[04:02:08][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:09][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (706, 903), &#x27;rectangle&#x27;: ((249, 541.44), (249, 1265.44), (1163, 1265.44), (1163, 541.44)), &#x27;confidence&#x27;: 0.2228052020072937}
+[04:02:09][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.18 s.
+[04:02:09][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:02:09][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (783, 1181), &#x27;rectangle&#x27;: ((224, 739), (224, 1623), (1342, 1623), (1342, 739)), &#x27;confidence&#x27;: 0.1538955122232437}
+[04:02:09][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.12 s.
+[04:02:09][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:02:11][DEBUG]&lt;airtest.aircv.keypoint_base&gt; [SIFT] threshold=0.7, result={&#x27;result&#x27;: (-4318, -355), &#x27;rectangle&#x27;: [(0, 0), (0, 539), (788, 539), (788, 0)], &#x27;confidence&#x27;: 0.5057430663146079}
+[04:02:11][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.21 s.
+[04:02:11][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:02:11][DEBUG]&lt;airtest.aircv.keypoint_base&gt; [BRISK] threshold=0.7, result={&#x27;result&#x27;: [0, 1558], &#x27;rectangle&#x27;: [(0, 11), (0, 2559), (958, 2559), (958, 11)], &#x27;confidence&#x27;: 0.4891243213787675}
+[04:02:11][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.40 s.
+[04:02:11][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:02:12][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:12][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (715, 1317), &#x27;rectangle&#x27;: ((161, 879.44), (161, 1756.44), (1270, 1756.44), (1270, 879.44)), &#x27;confidence&#x27;: 0.7805570363998413}
+[04:02:12][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.53 s.
+[04:02:12][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (715, 1317), &#x27;rectangle&#x27;: ((161, 879.44), (161, 1756.44), (1270, 1756.44), (1270, 879.44)), &#x27;confidence&#x27;: 0.7805570363998413, &#x27;time&#x27;: 0.5256147384643555}
+[04:02:12][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288890150.png)
+[04:02:12][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:13][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7070093154907227}
+[04:02:13][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.61 s.
+[04:02:13][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7070093154907227, &#x27;time&#x27;: 0.6107039451599121}
+[04:02:13][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288890150.png)
+[04:02:13][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:14][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7070093154907227}
+[04:02:14][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.55 s.
+[04:02:14][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7070093154907227, &#x27;time&#x27;: 0.5546183586120605}
+[04:02:14][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288550917.png)
+[04:02:14][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:15][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (705, 1413), &#x27;rectangle&#x27;: ((244, 1293.24), (244, 1534.24), (1166, 1534.24), (1166, 1293.24)), &#x27;confidence&#x27;: 0.7306916117668152}
+[04:02:15][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.73 s.
+[04:02:15][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (705, 1413), &#x27;rectangle&#x27;: ((244, 1293.24), (244, 1534.24), (1166, 1534.24), (1166, 1293.24)), &#x27;confidence&#x27;: 0.7306916117668152, &#x27;time&#x27;: 0.7325925827026367}
+[04:02:15][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys package com.netease.nie.yosemite
+[04:02:15][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell settings get secure default_input_method
+[04:02:15][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ime list -a
+[04:02:15][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell am broadcast -a ADB_INPUT_TEXT --es msg &#x27;Password123&#x27;
+[04:02:15][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell input keyevent ENTER
+[04:02:16][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288614104.png)
+[04:02:16][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:17][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1072, 1934), &#x27;rectangle&#x27;: ((870.3600000000001, 1866.12), (870.3600000000001, 2003.12), (1275.3600000000001, 2003.12), (1275.3600000000001, 1866.12)), &#x27;confidence&#x27;: 0.572760820388794}
+[04:02:17][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.13 s.
+[04:02:17][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:02:17][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (1232, 102), &#x27;rectangle&#x27;: ((1029, 33), (1029, 171), (1436, 171), (1436, 33)), &#x27;confidence&#x27;: 0.614899754524231}
+[04:02:17][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.12 s.
+[04:02:17][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:02:18][DEBUG]&lt;airtest.aircv.keypoint_base&gt; [SIFT] threshold=0.7, result={&#x27;result&#x27;: (1074, 1934), &#x27;rectangle&#x27;: [(872, 1866), (872, 2003), (1276, 2003), (1276, 1866)], &#x27;confidence&#x27;: 0.7801387906074524}
+[04:02:18][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.70 s.
+[04:02:18][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1074, 1934), &#x27;rectangle&#x27;: [(872, 1866), (872, 2003), (1276, 2003), (1276, 1866)], &#x27;confidence&#x27;: 0.7801387906074524, &#x27;time&#x27;: 0.6999905109405518}
+[04:02:18][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644297157499.png)
+[04:02:18][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:02:19][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (758, 1261), &#x27;rectangle&#x27;: ((321, 1235.28), (321, 1288.28), (1195, 1288.28), (1195, 1235.28)), &#x27;confidence&#x27;: 0.7033388614654541}
+[04:02:19][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.35 s.
+[04:02:19][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (758, 1261), &#x27;rectangle&#x27;: ((321, 1235.28), (321, 1288.28), (1195, 1288.28), (1195, 1235.28)), &#x27;confidence&#x27;: 0.7033388614654541, &#x27;time&#x27;: 0.3458418846130371}
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288126045.png)
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls /data/local/tmp/minicap
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls /data/local/tmp/minicap.so
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2&gt;&amp;1
+ERROR    airtest.core.android.cap_methods.minicap:minicap.py:77 stdout[b&#x27;CANNOT LINK EXECUTABLE &quot;/data/local/tmp/minicap&quot;: &quot;/data/local/tmp/minicap&quot; has text relocations (https://android.googlesource.com/platform/bionic/+/master/android-changes-for-ndk-developers.md#Text-Relocations-Enforced-for-API-level-23)\r\n&#x27;] stderr[b&#x27;&#x27;]
+DEBUG    airtest.core.android.cap_methods.minicap:minicap.py:90 upgrade minicap to lastest version: -1-&gt;5
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell rm -r /data/local/tmp/minicap*
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.product.cpu.abi
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.preview_sdk
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.release
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 push C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\stf_libs\x86\minicap /data/local/tmp/minicap
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell chmod 755 /data/local/tmp/minicap
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 push C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\stf_libs\minicap-shared/aosp/libs/android-30/x86/minicap.so /data/local/tmp/minicap.so
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell chmod 755 /data/local/tmp/minicap.so
+INFO     airtest.core.android.cap_methods.minicap:minicap.py:146 minicap installation finished
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls -l /data/local/tmp/rotationwatcher.jar
+DEBUG    airtest.core.android.rotation:rotation.py:49 install_rotationwatcher skipped
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [rotation_server]b&#x27;0&#x27;
+INFO     airtest.core.android.rotation:rotation.py:151 update orientation None-&gt;0
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell wm size
+DEBUG    airtest.core.android.cap_methods.minicap:minicap.py:371 update_rotation: 0
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.sf.lcd_density
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop qemu.sf.lcd_density
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys SurfaceFlinger
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys input
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getevent -p
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n &#x27;airtest_minicap&#x27; -P 1440x2560@1440x2560/0 -s
+ERROR    airtest.core.android.cap_methods.screen_proxy:screen_proxy.py:56 b&#x27;&#x27;
+ERROR    airtest.core.android.cap_methods.screen_proxy:screen_proxy.py:57 b&#x27;CANNOT LINK EXECUTABLE &quot;/data/local/tmp/minicap&quot;: &quot;/data/local/tmp/minicap&quot; has text relocations (https://android.googlesource.com/platform/bionic/+/master/android-changes-for-ndk-developers.md#Text-Relocations-Enforced-for-API-level-23)\r\n&#x27;
+ERROR    airtest.core.android.cap_methods.screen_proxy:screen_proxy.py:60 Minicap setup up failed!
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys package com.netease.nie.yosemite
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 forward --no-rebind tcp:19346 localabstract:javacap_19346
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell pm path com.netease.nie.yosemite
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell CLASSPATH=/data/app/~~o0yi9_njiyb8RRLJBXpqbQ==/com.netease.nie.yosemite-SlQIkhPM5-VbLUUZadywVQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_19346 -lazy 2&gt;&amp;1
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [javacap_sever]b&#x27;Capture server listening on @javacap_19346&#x27;
+DEBUG    airtest.core.android.cap_methods.javacap:javacap.py:74 (1, 3, 0, 1440, 2560, 0, 0, 0, 1)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (746, 1178), &#x27;rectangle&#x27;: ((86, 118), (86, 2238), (1407, 2238), (1407, 118)), &#x27;confidence&#x27;: 0.7766159176826477}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.14 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (746, 1178), &#x27;rectangle&#x27;: ((86, 118), (86, 2238), (1407, 2238), (1407, 118)), &#x27;confidence&#x27;: 0.7766159176826477, &#x27;time&#x27;: 1.1408464908599854}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288160934.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (166, 1850), &#x27;rectangle&#x27;: ((124.60000000000002, 1787.8000000000002), (124.60000000000002, 1912.8000000000002), (207.60000000000002, 1912.8000000000002), (207.60000000000002, 1787.8000000000002)), &#x27;confidence&#x27;: 0.9999997615814209}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (166, 1850), &#x27;rectangle&#x27;: ((124.60000000000002, 1787.8000000000002), (124.60000000000002, 1912.8000000000002), (207.60000000000002, 1912.8000000000002), (207.60000000000002, 1787.8000000000002)), &#x27;confidence&#x27;: 0.9999997615814209, &#x27;time&#x27;: 0.003406524658203125}
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls -l /data/local/tmp/maxpresent.jar
+DEBUG    airtest.core.android.touch_methods.maxtouch:maxtouch.py:36 install_maxtouch skipped
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 forward --no-rebind tcp:12143 localabstract:maxpresent_12143
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_12143
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [airtouch_server]b&#x27;Metrics Message : 2560.0=====1440.0&#x27;
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [airtouch_server]b&#x27;Start local socket (maxpresent_12143) server...&#x27;
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288172352.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (701, 2212), &#x27;rectangle&#x27;: ((344, 2112.56), (344, 2311.56), (1058, 2311.56), (1058, 2112.56)), &#x27;confidence&#x27;: 0.7243560552597046}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.49 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (701, 2212), &#x27;rectangle&#x27;: ((344, 2112.56), (344, 2311.56), (1058, 2311.56), (1058, 2112.56)), &#x27;confidence&#x27;: 0.7243560552597046, &#x27;time&#x27;: 0.4861447811126709}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288179250.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 2218), &#x27;rectangle&#x27;: ((383.32000000000005, 2121.88), (383.32000000000005, 2314.88), (998.32, 2314.88), (998.32, 2121.88)), &#x27;confidence&#x27;: 0.7418957352638245}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.45 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (690, 2218), &#x27;rectangle&#x27;: ((383.32000000000005, 2121.88), (383.32000000000005, 2314.88), (998.32, 2314.88), (998.32, 2121.88)), &#x27;confidence&#x27;: 0.7418957352638245, &#x27;time&#x27;: 0.4527854919433594}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288260454.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (667, 1451), &#x27;rectangle&#x27;: ((122, 1203.52), (122, 1699.52), (1213, 1699.52), (1213, 1203.52)), &#x27;confidence&#x27;: 0.2715206742286682}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.89 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (729, 665), &#x27;rectangle&#x27;: ((108, 382), (108, 948), (1351, 948), (1351, 382)), &#x27;confidence&#x27;: 0.2429446578025818}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.21 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.core.api:cv.py:196 &#x27;Target area is 5 times bigger or 0.2 times smaller than sch_img.&#x27;
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [BRISK] threshold=0.7, result={&#x27;result&#x27;: (491, 1650), &#x27;rectangle&#x27;: [(330, 1230), (330, 2071), (653, 2071), (653, 1230)], &#x27;confidence&#x27;: 0.48958372231572866}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.45 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.54 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636, &#x27;time&#x27;: 0.5435676574707031}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288260454.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.56 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636, &#x27;time&#x27;: 0.5643949508666992}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288272785.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (725, 1400), &#x27;rectangle&#x27;: ((533.2, 1335.96), (533.2, 1465.96), (918.2, 1465.96), (918.2, 1335.96)), &#x27;confidence&#x27;: 0.7225582599639893}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.60 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (725, 1400), &#x27;rectangle&#x27;: ((533.2, 1335.96), (533.2, 1465.96), (918.2, 1465.96), (918.2, 1335.96)), &#x27;confidence&#x27;: 0.7225582599639893, &#x27;time&#x27;: 0.5950181484222412}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288283062.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1228, 104), &#x27;rectangle&#x27;: ((1110.32, 71), (1110.32, 137), (1347.32, 137), (1347.32, 71)), &#x27;confidence&#x27;: 0.7525858879089355}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.15 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1228, 104), &#x27;rectangle&#x27;: ((1110.32, 71), (1110.32, 137), (1347.32, 137), (1347.32, 71)), &#x27;confidence&#x27;: 0.7525858879089355, &#x27;time&#x27;: 0.15307140350341797}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288305866.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1233, 103), &#x27;rectangle&#x27;: ((1124.6399999999999, 64), (1124.6399999999999, 142), (1341.6399999999999, 142), (1341.6399999999999, 64)), &#x27;confidence&#x27;: 0.7221882343292236}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.12 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1233, 103), &#x27;rectangle&#x27;: ((1124.6399999999999, 64), (1124.6399999999999, 142), (1341.6399999999999, 142), (1341.6399999999999, 64)), &#x27;confidence&#x27;: 0.7221882343292236, &#x27;time&#x27;: 0.11678719520568848}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288502690.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (706, 903), &#x27;rectangle&#x27;: ((249, 541.44), (249, 1265.44), (1163, 1265.44), (1163, 541.44)), &#x27;confidence&#x27;: 0.2228052020072937}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.18 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (783, 1181), &#x27;rectangle&#x27;: ((224, 739), (224, 1623), (1342, 1623), (1342, 739)), &#x27;confidence&#x27;: 0.1538955122232437}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.12 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={&#x27;result&#x27;: (-4318, -355), &#x27;rectangle&#x27;: [(0, 0), (0, 539), (788, 539), (788, 0)], &#x27;confidence&#x27;: 0.5057430663146079}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.21 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [BRISK] threshold=0.7, result={&#x27;result&#x27;: [0, 1558], &#x27;rectangle&#x27;: [(0, 11), (0, 2559), (958, 2559), (958, 11)], &#x27;confidence&#x27;: 0.4891243213787675}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.40 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (715, 1317), &#x27;rectangle&#x27;: ((161, 879.44), (161, 1756.44), (1270, 1756.44), (1270, 879.44)), &#x27;confidence&#x27;: 0.7805570363998413}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.53 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (715, 1317), &#x27;rectangle&#x27;: ((161, 879.44), (161, 1756.44), (1270, 1756.44), (1270, 879.44)), &#x27;confidence&#x27;: 0.7805570363998413, &#x27;time&#x27;: 0.5256147384643555}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288890150.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7070093154907227}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.61 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7070093154907227, &#x27;time&#x27;: 0.6107039451599121}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288890150.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7070093154907227}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.55 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7070093154907227, &#x27;time&#x27;: 0.5546183586120605}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288550917.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (705, 1413), &#x27;rectangle&#x27;: ((244, 1293.24), (244, 1534.24), (1166, 1534.24), (1166, 1293.24)), &#x27;confidence&#x27;: 0.7306916117668152}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.73 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (705, 1413), &#x27;rectangle&#x27;: ((244, 1293.24), (244, 1534.24), (1166, 1534.24), (1166, 1293.24)), &#x27;confidence&#x27;: 0.7306916117668152, &#x27;time&#x27;: 0.7325925827026367}
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys package com.netease.nie.yosemite
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell settings get secure default_input_method
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ime list -a
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell am broadcast -a ADB_INPUT_TEXT --es msg &#x27;Password123&#x27;
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell input keyevent ENTER
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288614104.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1072, 1934), &#x27;rectangle&#x27;: ((870.3600000000001, 1866.12), (870.3600000000001, 2003.12), (1275.3600000000001, 2003.12), (1275.3600000000001, 1866.12)), &#x27;confidence&#x27;: 0.572760820388794}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.13 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (1232, 102), &#x27;rectangle&#x27;: ((1029, 33), (1029, 171), (1436, 171), (1436, 33)), &#x27;confidence&#x27;: 0.614899754524231}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.12 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={&#x27;result&#x27;: (1074, 1934), &#x27;rectangle&#x27;: [(872, 1866), (872, 2003), (1276, 2003), (1276, 1866)], &#x27;confidence&#x27;: 0.7801387906074524}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.70 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1074, 1934), &#x27;rectangle&#x27;: [(872, 1866), (872, 2003), (1276, 2003), (1276, 1866)], &#x27;confidence&#x27;: 0.7801387906074524, &#x27;time&#x27;: 0.6999905109405518}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644297157499.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (758, 1261), &#x27;rectangle&#x27;: ((321, 1235.28), (321, 1288.28), (1195, 1288.28), (1195, 1235.28)), &#x27;confidence&#x27;: 0.7033388614654541}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.35 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (758, 1261), &#x27;rectangle&#x27;: ((321, 1235.28), (321, 1288.28), (1195, 1288.28), (1195, 1235.28)), &#x27;confidence&#x27;: 0.7033388614654541, &#x27;time&#x27;: 0.3458418846130371}<br/> ----------------------------Captured stderr teardown---------------------------- <br/>[04:02:19][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 uninstall com.gsn.worldwinner
+<br/> -----------------------------Captured log teardown------------------------------ <br/>DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 uninstall com.gsn.worldwinner<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Login_test.py::test_startGame</td>
+          <td class="col-duration">287.11</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -----------------------------Captured stderr setup------------------------------ <br/>[04:02:19][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+[04:02:19][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+[04:02:19][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 wait-for-device
+[04:02:19][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.sdk
+[04:02:19][WARNING]&lt;airtest.core.api&gt; Device:emulator-5554 updated &lt;airtest.core.android.android.Android object at 0x000001AC18925040&gt; -&gt; &lt;airtest.core.android.android.Android object at 0x000001AC18AE58B0&gt;
+[04:02:19][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 install C:/Users/RH0539/Downloads/WorldWinner.apk
+[04:02:26][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell monkey -p com.gsn.worldwinner -c android.intent.category.LAUNCHER 1
+<br/> -------------------------------Captured log setup------------------------------- <br/>DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe devices
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 wait-for-device
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.sdk
+WARNING  airtest.core.api:helper.py:41 Device:emulator-5554 updated &lt;airtest.core.android.android.Android object at 0x000001AC18925040&gt; -&gt; &lt;airtest.core.android.android.Android object at 0x000001AC18AE58B0&gt;
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 install C:/Users/RH0539/Downloads/WorldWinner.apk
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell monkey -p com.gsn.worldwinner -c android.intent.category.LAUNCHER 1<br/> ------------------------------Captured stderr call------------------------------ <br/>[04:03:47][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288126045.png)
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls /data/local/tmp/minicap
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls /data/local/tmp/minicap.so
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2&gt;&amp;1
+[04:03:47][ERROR]&lt;airtest.core.android.cap_methods.minicap&gt; stdout[b&#x27;CANNOT LINK EXECUTABLE &quot;/data/local/tmp/minicap&quot;: &quot;/data/local/tmp/minicap&quot; has text relocations (https://android.googlesource.com/platform/bionic/+/master/android-changes-for-ndk-developers.md#Text-Relocations-Enforced-for-API-level-23)\r\n&#x27;] stderr[b&#x27;&#x27;]
+[04:03:47][DEBUG]&lt;airtest.core.android.cap_methods.minicap&gt; upgrade minicap to lastest version: -1-&gt;5
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell rm -r /data/local/tmp/minicap*
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.product.cpu.abi
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.preview_sdk
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.release
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 push C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\stf_libs\x86\minicap /data/local/tmp/minicap
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell chmod 755 /data/local/tmp/minicap
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 push C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\stf_libs\minicap-shared/aosp/libs/android-30/x86/minicap.so /data/local/tmp/minicap.so
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell chmod 755 /data/local/tmp/minicap.so
+[04:03:47][INFO]&lt;airtest.core.android.cap_methods.minicap&gt; minicap installation finished
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls -l /data/local/tmp/rotationwatcher.jar
+[04:03:47][DEBUG]&lt;airtest.core.android.rotation&gt; install_rotationwatcher skipped
+[04:03:47][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+[04:03:48][DEBUG]&lt;airtest.utils.nbsp&gt; [rotation_server]b&#x27;0&#x27;
+[04:03:48][INFO]&lt;airtest.core.android.rotation&gt; update orientation None-&gt;0
+[04:03:48][DEBUG]&lt;airtest.core.android.cap_methods.minicap&gt; update_rotation: 0
+[04:03:48][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell wm size
+[04:03:48][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.sf.lcd_density
+[04:03:48][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop qemu.sf.lcd_density
+[04:03:49][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys SurfaceFlinger
+[04:03:49][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys input
+[04:03:49][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getevent -p
+[04:03:49][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n &#x27;airtest_minicap&#x27; -P 1440x2560@1440x2560/0 -s
+[04:03:49][ERROR]&lt;airtest.core.android.cap_methods.screen_proxy&gt; b&#x27;&#x27;
+[04:03:49][ERROR]&lt;airtest.core.android.cap_methods.screen_proxy&gt; b&#x27;CANNOT LINK EXECUTABLE &quot;/data/local/tmp/minicap&quot;: &quot;/data/local/tmp/minicap&quot; has text relocations (https://android.googlesource.com/platform/bionic/+/master/android-changes-for-ndk-developers.md#Text-Relocations-Enforced-for-API-level-23)\r\n&#x27;
+[04:03:49][ERROR]&lt;airtest.core.android.cap_methods.screen_proxy&gt; Minicap setup up failed!
+[04:03:49][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys package com.netease.nie.yosemite
+[04:03:49][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 forward --no-rebind tcp:13586 localabstract:javacap_13586
+[04:03:49][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell pm path com.netease.nie.yosemite
+[04:03:49][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell CLASSPATH=/data/app/~~o0yi9_njiyb8RRLJBXpqbQ==/com.netease.nie.yosemite-SlQIkhPM5-VbLUUZadywVQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_13586 -lazy 2&gt;&amp;1
+[04:03:50][DEBUG]&lt;airtest.utils.nbsp&gt; [javacap_sever]b&#x27;Capture server listening on @javacap_13586&#x27;
+[04:03:50][DEBUG]&lt;airtest.core.android.cap_methods.javacap&gt; (1, 3, 0, 1440, 2560, 0, 0, 0, 1)
+[04:03:50][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:51][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (746, 1178), &#x27;rectangle&#x27;: ((86, 118), (86, 2238), (1407, 2238), (1407, 118)), &#x27;confidence&#x27;: 0.7766159176826477}
+[04:03:51][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.14 s.
+[04:03:51][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (746, 1178), &#x27;rectangle&#x27;: ((86, 118), (86, 2238), (1407, 2238), (1407, 118)), &#x27;confidence&#x27;: 0.7766159176826477, &#x27;time&#x27;: 1.143198013305664}
+[04:03:51][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288160934.png)
+[04:03:51][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:51][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (166, 1850), &#x27;rectangle&#x27;: ((124.60000000000002, 1787.8000000000002), (124.60000000000002, 1912.8000000000002), (207.60000000000002, 1912.8000000000002), (207.60000000000002, 1787.8000000000002)), &#x27;confidence&#x27;: 0.9999997615814209}
+[04:03:51][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.00 s.
+[04:03:51][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (166, 1850), &#x27;rectangle&#x27;: ((124.60000000000002, 1787.8000000000002), (124.60000000000002, 1912.8000000000002), (207.60000000000002, 1912.8000000000002), (207.60000000000002, 1787.8000000000002)), &#x27;confidence&#x27;: 0.9999997615814209, &#x27;time&#x27;: 0.003991842269897461}
+[04:03:51][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls -l /data/local/tmp/maxpresent.jar
+[04:03:51][DEBUG]&lt;airtest.core.android.touch_methods.maxtouch&gt; install_maxtouch skipped
+[04:03:51][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 forward --no-rebind tcp:17582 localabstract:maxpresent_17582
+[04:03:51][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_17582
+[04:03:52][DEBUG]&lt;airtest.utils.nbsp&gt; [airtouch_server]b&#x27;Metrics Message : 2560.0=====1440.0&#x27;
+[04:03:52][DEBUG]&lt;airtest.utils.nbsp&gt; [airtouch_server]b&#x27;Start local socket (maxpresent_17582) server...&#x27;
+[04:03:52][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288172352.png)
+[04:03:52][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:52][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (701, 2212), &#x27;rectangle&#x27;: ((344, 2112.56), (344, 2311.56), (1058, 2311.56), (1058, 2112.56)), &#x27;confidence&#x27;: 0.7243560552597046}
+[04:03:52][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.43 s.
+[04:03:52][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (701, 2212), &#x27;rectangle&#x27;: ((344, 2112.56), (344, 2311.56), (1058, 2311.56), (1058, 2112.56)), &#x27;confidence&#x27;: 0.7243560552597046, &#x27;time&#x27;: 0.42503905296325684}
+[04:03:52][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288179250.png)
+[04:03:52][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:53][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 2218), &#x27;rectangle&#x27;: ((383.32000000000005, 2121.88), (383.32000000000005, 2314.88), (998.32, 2314.88), (998.32, 2121.88)), &#x27;confidence&#x27;: 0.7418957352638245}
+[04:03:53][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.46 s.
+[04:03:53][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (690, 2218), &#x27;rectangle&#x27;: ((383.32000000000005, 2121.88), (383.32000000000005, 2314.88), (998.32, 2314.88), (998.32, 2121.88)), &#x27;confidence&#x27;: 0.7418957352638245, &#x27;time&#x27;: 0.46309685707092285}
+[04:03:53][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288260454.png)
+[04:03:53][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:54][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (667, 1451), &#x27;rectangle&#x27;: ((122, 1203.52), (122, 1699.52), (1213, 1699.52), (1213, 1203.52)), &#x27;confidence&#x27;: 0.2715206742286682}
+[04:03:54][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.91 s.
+[04:03:54][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:03:54][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (676, 1453), &#x27;rectangle&#x27;: ((55, 1170), (55, 1736), (1298, 1736), (1298, 1170)), &#x27;confidence&#x27;: 0.1976030319929123}
+[04:03:54][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.20 s.
+[04:03:54][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:03:56][DEBUG]&lt;airtest.aircv.keypoint_base&gt; [SIFT] threshold=0.7, result={&#x27;result&#x27;: (-88, 3086), &#x27;rectangle&#x27;: [(0, 495), (0, 2559), (504, 2559), (504, 495)], &#x27;confidence&#x27;: 0.4868323961272836}
+[04:03:56][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.47 s.
+[04:03:56][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:03:56][DEBUG]&lt;airtest.core.api&gt; &#x27;Target area is 5 times bigger or 0.2 times smaller than sch_img.&#x27;
+[04:03:56][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:03:57][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:58][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636}
+[04:03:58][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.55 s.
+[04:03:58][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636, &#x27;time&#x27;: 0.5528473854064941}
+[04:03:58][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288260454.png)
+[04:03:58][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:58][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636}
+[04:03:58][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.53 s.
+[04:03:58][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636, &#x27;time&#x27;: 0.525083065032959}
+[04:03:58][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288272785.png)
+[04:03:58][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:59][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (725, 1400), &#x27;rectangle&#x27;: ((533.2, 1335.96), (533.2, 1465.96), (918.2, 1465.96), (918.2, 1335.96)), &#x27;confidence&#x27;: 0.7225582599639893}
+[04:03:59][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.55 s.
+[04:03:59][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (725, 1400), &#x27;rectangle&#x27;: ((533.2, 1335.96), (533.2, 1465.96), (918.2, 1465.96), (918.2, 1335.96)), &#x27;confidence&#x27;: 0.7225582599639893, &#x27;time&#x27;: 0.5524325370788574}
+[04:03:59][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288283062.png)
+[04:03:59][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:03:59][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1228, 104), &#x27;rectangle&#x27;: ((1110.32, 71), (1110.32, 137), (1347.32, 137), (1347.32, 71)), &#x27;confidence&#x27;: 0.7525858879089355}
+[04:03:59][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.14 s.
+[04:03:59][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1228, 104), &#x27;rectangle&#x27;: ((1110.32, 71), (1110.32, 137), (1347.32, 137), (1347.32, 71)), &#x27;confidence&#x27;: 0.7525858879089355, &#x27;time&#x27;: 0.13590526580810547}
+[04:03:59][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288305866.png)
+[04:04:00][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:00][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1070, 23), &#x27;rectangle&#x27;: ((1004.6399999999999, 0), (1004.6399999999999, 47), (1136.6399999999999, 47), (1136.6399999999999, 0)), &#x27;confidence&#x27;: 0.0}
+[04:04:00][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.25 s.
+[04:04:00][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:04:00][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (114, 41), &#x27;rectangle&#x27;: ((0, 0), (0, 82), (228, 82), (228, 0)), &#x27;confidence&#x27;: 0.0}
+[04:04:00][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.12 s.
+[04:04:00][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:04:00][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:04:00][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:04:00][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:04:00][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:04:01][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:01][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1233, 103), &#x27;rectangle&#x27;: ((1124.6399999999999, 64), (1124.6399999999999, 142), (1341.6399999999999, 142), (1341.6399999999999, 64)), &#x27;confidence&#x27;: 0.7221882343292236}
+[04:04:01][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.11 s.
+[04:04:01][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1233, 103), &#x27;rectangle&#x27;: ((1124.6399999999999, 64), (1124.6399999999999, 142), (1341.6399999999999, 142), (1341.6399999999999, 64)), &#x27;confidence&#x27;: 0.7221882343292236, &#x27;time&#x27;: 0.11280465126037598}
+[04:04:01][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288502690.png)
+[04:04:01][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:02][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (867, 889), &#x27;rectangle&#x27;: ((413, 530.44), (413, 1248.44), (1321, 1248.44), (1321, 530.44)), &#x27;confidence&#x27;: 0.22258678078651428}
+[04:04:02][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.12 s.
+[04:04:02][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:04:02][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (778, 1181), &#x27;rectangle&#x27;: ((219, 739), (219, 1623), (1337, 1623), (1337, 739)), &#x27;confidence&#x27;: 0.1511397659778595}
+[04:04:02][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.09 s.
+[04:04:02][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:04:04][DEBUG]&lt;airtest.aircv.keypoint_base&gt; [SIFT] threshold=0.7, result={&#x27;result&#x27;: (357, 491), &#x27;rectangle&#x27;: [(0, 255), (0, 727), (844, 727), (844, 255)], &#x27;confidence&#x27;: 0.5694604814052582}
+[04:04:04][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.42 s.
+[04:04:04][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:04:04][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.39 s.
+[04:04:04][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:04:05][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:05][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (715, 1317), &#x27;rectangle&#x27;: ((161, 879.44), (161, 1756.44), (1270, 1756.44), (1270, 879.44)), &#x27;confidence&#x27;: 0.7807093262672424}
+[04:04:05][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.52 s.
+[04:04:05][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (715, 1317), &#x27;rectangle&#x27;: ((161, 879.44), (161, 1756.44), (1270, 1756.44), (1270, 879.44)), &#x27;confidence&#x27;: 0.7807093262672424, &#x27;time&#x27;: 0.5242302417755127}
+[04:04:05][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288890150.png)
+[04:04:05][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:06][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7071280479431152}
+[04:04:06][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.55 s.
+[04:04:06][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7071280479431152, &#x27;time&#x27;: 0.5514576435089111}
+[04:04:06][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288890150.png)
+[04:04:06][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:07][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7071280479431152}
+[04:04:07][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.59 s.
+[04:04:07][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7071280479431152, &#x27;time&#x27;: 0.5866436958312988}
+[04:04:07][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys package com.netease.nie.yosemite
+[04:04:07][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell settings get secure default_input_method
+[04:04:07][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ime list -a
+[04:04:07][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell am broadcast -a ADB_INPUT_TEXT --es msg &#x27;accion&#x27;
+[04:04:07][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell input keyevent ENTER
+[04:04:08][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288550917.png)
+[04:04:08][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:09][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (173, 1206), &#x27;rectangle&#x27;: ((0, 1162.24), (0, 1251.24), (347, 1251.24), (347, 1162.24)), &#x27;confidence&#x27;: 0.0}
+[04:04:09][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.07 s.
+[04:04:09][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:04:09][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (490, 128), &#x27;rectangle&#x27;: ((0, 0), (0, 256), (980, 256), (980, 0)), &#x27;confidence&#x27;: 0.0}
+[04:04:09][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.12 s.
+[04:04:09][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:04:09][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:04:09][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:04:09][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:04:09][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:04:10][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:11][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (173, 1206), &#x27;rectangle&#x27;: ((0, 1162.24), (0, 1251.24), (347, 1251.24), (347, 1162.24)), &#x27;confidence&#x27;: 0.0}
+[04:04:11][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.06 s.
+[04:04:11][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:04:11][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (490, 128), &#x27;rectangle&#x27;: ((0, 0), (0, 256), (980, 256), (980, 0)), &#x27;confidence&#x27;: 0.0}
+[04:04:11][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.11 s.
+[04:04:11][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:04:11][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:04:11][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:04:11][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.00 s.
+[04:04:11][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:04:12][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:12][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (705, 1413), &#x27;rectangle&#x27;: ((244, 1293.24), (244, 1534.24), (1166, 1534.24), (1166, 1293.24)), &#x27;confidence&#x27;: 0.7309521436691284}
+[04:04:12][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.73 s.
+[04:04:12][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (705, 1413), &#x27;rectangle&#x27;: ((244, 1293.24), (244, 1534.24), (1166, 1534.24), (1166, 1293.24)), &#x27;confidence&#x27;: 0.7309521436691284, &#x27;time&#x27;: 0.7269332408905029}
+[04:04:13][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell am broadcast -a ADB_INPUT_TEXT --es msg &#x27;Password123&#x27;
+[04:04:13][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell input keyevent ENTER
+[04:04:13][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644288614104.png)
+[04:04:14][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:14][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1073, 1926), &#x27;rectangle&#x27;: ((880.3600000000001, 1861.12), (880.3600000000001, 1991.12), (1266.3600000000001, 1991.12), (1266.3600000000001, 1861.12)), &#x27;confidence&#x27;: 0.7411791682243347}
+[04:04:14][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.57 s.
+[04:04:14][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1073, 1926), &#x27;rectangle&#x27;: ((880.3600000000001, 1861.12), (880.3600000000001, 1991.12), (1266.3600000000001, 1991.12), (1266.3600000000001, 1861.12)), &#x27;confidence&#x27;: 0.7411791682243347, &#x27;time&#x27;: 0.5698516368865967}
+[04:04:44][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289213456.png)
+[04:04:45][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:45][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (277, 1331), &#x27;rectangle&#x27;: ((103, 1157.4), (103, 1505.4), (451, 1505.4), (451, 1157.4)), &#x27;confidence&#x27;: 0.7267849445343018}
+[04:04:45][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.19 s.
+[04:04:45][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (277, 1331), &#x27;rectangle&#x27;: ((103, 1157.4), (103, 1505.4), (451, 1505.4), (451, 1157.4)), &#x27;confidence&#x27;: 0.7267849445343018, &#x27;time&#x27;: 0.19110870361328125}
+[04:04:45][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289220930.png)
+[04:04:45][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:45][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (262, 1328), &#x27;rectangle&#x27;: ((87, 1150.52), (87, 1506.52), (437, 1506.52), (437, 1150.52)), &#x27;confidence&#x27;: 0.7700789570808411}
+[04:04:45][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.31 s.
+[04:04:45][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (262, 1328), &#x27;rectangle&#x27;: ((87, 1150.52), (87, 1506.52), (437, 1506.52), (437, 1150.52)), &#x27;confidence&#x27;: 0.7700789570808411, &#x27;time&#x27;: 0.3149678707122803}
+[04:04:45][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289252617.png)
+[04:04:46][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:47][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (869, 845), &#x27;rectangle&#x27;: ((476, 143), (476, 1547), (1262, 1547), (1262, 143)), &#x27;confidence&#x27;: 0.1809944063425064}
+[04:04:47][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.27 s.
+[04:04:47][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:04:47][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (678, 1165), &#x27;rectangle&#x27;: ((47, 40), (47, 2291), (1310, 2291), (1310, 40)), &#x27;confidence&#x27;: 0.06934995949268341}
+[04:04:47][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.11 s.
+[04:04:47][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:04:52][DEBUG]&lt;airtest.core.api&gt; &#x27;Target area is 5 times bigger or 0.2 times smaller than sch_img.&#x27;
+[04:04:52][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+Traceback (most recent call last):
+  File &quot;c:\users\rh0539\appdata\local\programs\python\python38\lib\site-packages\airtest\aircv\keypoint_base.py&quot;, line 271, in _find_homography
+    M, mask = cv2.findHomography(sch_pts, src_pts, cv2.RANSAC, 5.0)
+cv2.error: OpenCV(4.5.5) D:\a\opencv-python\opencv-python\opencv\modules\calib3d\src\fundam.cpp:385: error: (-28:Unknown error code -28) The input arrays should have at least 4 corresponding point sets to calculate Homography in function &#x27;cv::findHomography&#x27;
+
+[04:04:53][DEBUG]&lt;airtest.core.api&gt; &#x27;OpenCV error in _find_homography()...&#x27;
+[04:04:53][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:04:53][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289261063.png)
+[04:04:53][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:53][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1031, 2397), &#x27;rectangle&#x27;: ((757.04, 2347.44), (757.04, 2448.44), (1306.04, 2448.44), (1306.04, 2347.44)), &#x27;confidence&#x27;: 0.7460118532180786}
+[04:04:53][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.54 s.
+[04:04:53][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1031, 2397), &#x27;rectangle&#x27;: ((757.04, 2347.44), (757.04, 2448.44), (1306.04, 2448.44), (1306.04, 2347.44)), &#x27;confidence&#x27;: 0.7460118532180786, &#x27;time&#x27;: 0.5399930477142334}
+[04:04:53][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289261063.png)
+[04:04:54][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:54][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1031, 2397), &#x27;rectangle&#x27;: ((757.04, 2347.44), (757.04, 2448.44), (1306.04, 2448.44), (1306.04, 2347.44)), &#x27;confidence&#x27;: 0.7460118532180786}
+[04:04:54][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.56 s.
+[04:04:54][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1031, 2397), &#x27;rectangle&#x27;: ((757.04, 2347.44), (757.04, 2448.44), (1306.04, 2448.44), (1306.04, 2347.44)), &#x27;confidence&#x27;: 0.7460118532180786, &#x27;time&#x27;: 0.5604805946350098}
+[04:04:54][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289291793.png)
+[04:04:54][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:55][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1167, 2222), &#x27;rectangle&#x27;: ((1066.4, 2178.76), (1066.4, 2266.76), (1268.4, 2266.76), (1268.4, 2178.76)), &#x27;confidence&#x27;: 0.7179552912712097}
+[04:04:55][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.13 s.
+[04:04:55][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1167, 2222), &#x27;rectangle&#x27;: ((1066.4, 2178.76), (1066.4, 2266.76), (1268.4, 2266.76), (1268.4, 2178.76)), &#x27;confidence&#x27;: 0.7179552912712097, &#x27;time&#x27;: 0.1283125877380371}
+[04:04:55][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289304883.png)
+[04:04:55][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:55][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1176, 2219), &#x27;rectangle&#x27;: ((1083.48, 2184.88), (1083.48, 2254.88), (1269.48, 2254.88), (1269.48, 2184.88)), &#x27;confidence&#x27;: 0.7454342842102051}
+[04:04:55][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.09 s.
+[04:04:55][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1176, 2219), &#x27;rectangle&#x27;: ((1083.48, 2184.88), (1083.48, 2254.88), (1269.48, 2254.88), (1269.48, 2184.88)), &#x27;confidence&#x27;: 0.7454342842102051, &#x27;time&#x27;: 0.08793091773986816}
+[04:04:55][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289351729.png)
+[04:04:55][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:04:56][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (746, 542), &#x27;rectangle&#x27;: ((334, 305), (334, 779), (1159, 779), (1159, 305)), &#x27;confidence&#x27;: 0.720680832862854}
+[04:04:56][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.57 s.
+[04:04:56][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (746, 542), &#x27;rectangle&#x27;: ((334, 305), (334, 779), (1159, 779), (1159, 305)), &#x27;confidence&#x27;: 0.720680832862854, &#x27;time&#x27;: 0.5686647891998291}
+[04:05:56][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289324889.png)
+[04:05:56][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:05:57][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (747, 1855), &#x27;rectangle&#x27;: ((387.36, 1721.0), (387.36, 1989.0), (1107.3600000000001, 1989.0), (1107.3600000000001, 1721.0)), &#x27;confidence&#x27;: 0.7689165472984314}
+[04:05:57][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.62 s.
+[04:05:57][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (747, 1855), &#x27;rectangle&#x27;: ((387.36, 1721.0), (387.36, 1989.0), (1107.3600000000001, 1989.0), (1107.3600000000001, 1721.0)), &#x27;confidence&#x27;: 0.7689165472984314, &#x27;time&#x27;: 0.619147539138794}
+[04:06:57][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289399878.png)
+[04:06:57][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:06:57][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (714, 1962), &#x27;rectangle&#x27;: ((400.24, 1879.56), (400.24, 2044.56), (1028.24, 2044.56), (1028.24, 1879.56)), &#x27;confidence&#x27;: 0.7212968468666077}
+[04:06:57][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.44 s.
+[04:06:57][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (714, 1962), &#x27;rectangle&#x27;: ((400.24, 1879.56), (400.24, 2044.56), (1028.24, 2044.56), (1028.24, 1879.56)), &#x27;confidence&#x27;: 0.7212968468666077, &#x27;time&#x27;: 0.444227933883667}
+[04:06:57][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289420121.png)
+[04:06:58][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:06:58][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (814, 295), &#x27;rectangle&#x27;: ((330, 221.4799999999999), (330, 370.4799999999999), (1299, 370.4799999999999), (1299, 221.4799999999999)), &#x27;confidence&#x27;: 0.7881494164466858}
+[04:06:58][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.55 s.
+[04:06:58][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (814, 295), &#x27;rectangle&#x27;: ((330, 221.4799999999999), (330, 370.4799999999999), (1299, 370.4799999999999), (1299, 221.4799999999999)), &#x27;confidence&#x27;: 0.7881494164466858, &#x27;time&#x27;: 0.5520815849304199}
+[04:06:58][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289425661.png)
+[04:06:58][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:06:58][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1125, 195), &#x27;rectangle&#x27;: ((1063.92, 143.5999999999999), (1063.92, 247.5999999999999), (1187.92, 247.5999999999999), (1187.92, 143.5999999999999)), &#x27;confidence&#x27;: 0.0}
+[04:06:58][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:06:58][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:06:58][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (62, 52), &#x27;rectangle&#x27;: ((0, 0), (0, 104), (124, 104), (124, 0)), &#x27;confidence&#x27;: 0.0}
+[04:06:58][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.14 s.
+[04:06:58][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:06:58][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:06:58][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:06:58][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:06:58][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:06:59][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:06:59][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1214, 293), &#x27;rectangle&#x27;: ((1152.92, 241.5999999999999), (1152.92, 345.5999999999999), (1276.92, 345.5999999999999), (1276.92, 241.5999999999999)), &#x27;confidence&#x27;: 0.9999986886978149}
+[04:06:59][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:06:59][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1214, 293), &#x27;rectangle&#x27;: ((1152.92, 241.5999999999999), (1152.92, 345.5999999999999), (1276.92, 345.5999999999999), (1276.92, 241.5999999999999)), &#x27;confidence&#x27;: 0.9999986886978149, &#x27;time&#x27;: 0.0050351619720458984}
+[04:06:59][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289436082.png)
+[04:06:59][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:07:00][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (700, 1958), &#x27;rectangle&#x27;: ((405.84000000000003, 1872.6799999999998), (405.84000000000003, 2043.6799999999998), (994.84, 2043.6799999999998), (994.84, 1872.6799999999998)), &#x27;confidence&#x27;: 0.7247382402420044}
+[04:07:00][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.44 s.
+[04:07:00][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (700, 1958), &#x27;rectangle&#x27;: ((405.84000000000003, 1872.6799999999998), (405.84000000000003, 2043.6799999999998), (994.84, 2043.6799999999998), (994.84, 1872.6799999999998)), &#x27;confidence&#x27;: 0.7247382402420044, &#x27;time&#x27;: 0.44124794006347656}
+[04:07:00][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644289436082.png)
+[04:07:00][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:07:00][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (700, 1958), &#x27;rectangle&#x27;: ((405.84000000000003, 1872.6799999999998), (405.84000000000003, 2043.6799999999998), (994.84, 2043.6799999999998), (994.84, 1872.6799999999998)), &#x27;confidence&#x27;: 0.7247382402420044}
+[04:07:00][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.43 s.
+[04:07:00][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (700, 1958), &#x27;rectangle&#x27;: ((405.84000000000003, 1872.6799999999998), (405.84000000000003, 2043.6799999999998), (994.84, 2043.6799999999998), (994.84, 1872.6799999999998)), &#x27;confidence&#x27;: 0.7247382402420044, &#x27;time&#x27;: 0.42627811431884766}
+[04:07:01][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644399269774.png)
+[04:07:01][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:07:01][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1259, 126), &#x27;rectangle&#x27;: ((1226.48, 78), (1226.48, 175), (1293.48, 175), (1293.48, 78)), &#x27;confidence&#x27;: 0.42360255122184753}
+[04:07:01][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.02 s.
+[04:07:01][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:07:01][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (711, 1933), &#x27;rectangle&#x27;: ((680, 1888), (680, 1978), (742, 1978), (742, 1888)), &#x27;confidence&#x27;: 0.4631665349006653}
+[04:07:01][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.13 s.
+[04:07:01][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:07:02][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 1.10 s.
+[04:07:02][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:07:02][DEBUG]&lt;airtest.core.api&gt; &#x27;Not enough feature points in input images !&#x27;
+[04:07:02][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:07:03][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:07:03][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1259, 126), &#x27;rectangle&#x27;: ((1226.48, 78), (1226.48, 175), (1293.48, 175), (1293.48, 78)), &#x27;confidence&#x27;: 0.42360255122184753}
+[04:07:03][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.03 s.
+[04:07:03][DEBUG]&lt;airtest.core.api&gt; try match with TemplateMatching
+[04:07:03][DEBUG]&lt;airtest.aircv.template_matching&gt; [Template] threshold=0.7, result={&#x27;result&#x27;: (710, 1928), &#x27;rectangle&#x27;: ((679, 1883), (679, 1973), (741, 1973), (741, 1883)), &#x27;confidence&#x27;: 0.46784114837646484}
+[04:07:03][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.14 s.
+[04:07:03][DEBUG]&lt;airtest.core.api&gt; try match with SIFTMatching
+[04:07:04][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.82 s.
+[04:07:04][DEBUG]&lt;airtest.core.api&gt; try match with BRISKMatching
+[04:07:04][DEBUG]&lt;airtest.core.api&gt; &#x27;Not enough feature points in input images !&#x27;
+[04:07:04][DEBUG]&lt;airtest.core.api&gt; match result: None
+[04:07:05][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:07:05][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1356, 65), &#x27;rectangle&#x27;: ((1328.48, 24), (1328.48, 106), (1384.48, 106), (1384.48, 24)), &#x27;confidence&#x27;: 0.9220749735832214}
+[04:07:05][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.01 s.
+[04:07:05][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1356, 65), &#x27;rectangle&#x27;: ((1328.48, 24), (1328.48, 106), (1384.48, 106), (1384.48, 24)), &#x27;confidence&#x27;: 0.9220749735832214, &#x27;time&#x27;: 0.012227058410644531}
+[04:07:05][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644399269774.png)
+[04:07:05][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:07:05][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1356, 65), &#x27;rectangle&#x27;: ((1328.48, 24), (1328.48, 106), (1384.48, 106), (1384.48, 24)), &#x27;confidence&#x27;: 0.9220749735832214}
+[04:07:05][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.00 s.
+[04:07:05][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1356, 65), &#x27;rectangle&#x27;: ((1328.48, 24), (1328.48, 106), (1384.48, 106), (1384.48, 24)), &#x27;confidence&#x27;: 0.9220749735832214, &#x27;time&#x27;: 0.0019829273223876953}
+[04:07:05][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644399306723.png)
+[04:07:05][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:07:05][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1111, 2042), &#x27;rectangle&#x27;: ((958.56, 1961.76), (958.56, 2122.76), (1263.56, 2122.76), (1263.56, 1961.76)), &#x27;confidence&#x27;: 0.7082520723342896}
+[04:07:05][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.32 s.
+[04:07:05][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1111, 2042), &#x27;rectangle&#x27;: ((958.56, 1961.76), (958.56, 2122.76), (1263.56, 2122.76), (1263.56, 1961.76)), &#x27;confidence&#x27;: 0.7082520723342896, &#x27;time&#x27;: 0.31933164596557617}
+[04:07:05][INFO]&lt;airtest.core.api&gt; Try finding: Template(tpl1644399306723.png)
+[04:07:06][DEBUG]&lt;airtest.core.api&gt; try match with MultiScaleTemplateMatchingPre
+[04:07:06][DEBUG]&lt;airtest.aircv.multiscale_template_matching&gt; [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1111, 2042), &#x27;rectangle&#x27;: ((958.56, 1961.76), (958.56, 2122.76), (1263.56, 2122.76), (1263.56, 1961.76)), &#x27;confidence&#x27;: 0.7082520723342896}
+[04:07:06][DEBUG]&lt;airtest.aircv.utils&gt; find_best_result() run time is 0.30 s.
+[04:07:06][DEBUG]&lt;airtest.core.api&gt; match result: {&#x27;result&#x27;: (1111, 2042), &#x27;rectangle&#x27;: ((958.56, 1961.76), (958.56, 2122.76), (1263.56, 2122.76), (1263.56, 1961.76)), &#x27;confidence&#x27;: 0.7082520723342896, &#x27;time&#x27;: 0.29856133460998535}
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288126045.png)
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls /data/local/tmp/minicap
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls /data/local/tmp/minicap.so
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -v 2&gt;&amp;1
+ERROR    airtest.core.android.cap_methods.minicap:minicap.py:77 stdout[b&#x27;CANNOT LINK EXECUTABLE &quot;/data/local/tmp/minicap&quot;: &quot;/data/local/tmp/minicap&quot; has text relocations (https://android.googlesource.com/platform/bionic/+/master/android-changes-for-ndk-developers.md#Text-Relocations-Enforced-for-API-level-23)\r\n&#x27;] stderr[b&#x27;&#x27;]
+DEBUG    airtest.core.android.cap_methods.minicap:minicap.py:90 upgrade minicap to lastest version: -1-&gt;5
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell rm -r /data/local/tmp/minicap*
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.product.cpu.abi
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.preview_sdk
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.build.version.release
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 push C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\stf_libs\x86\minicap /data/local/tmp/minicap
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell chmod 755 /data/local/tmp/minicap
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 push C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\stf_libs\minicap-shared/aosp/libs/android-30/x86/minicap.so /data/local/tmp/minicap.so
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell chmod 755 /data/local/tmp/minicap.so
+INFO     airtest.core.android.cap_methods.minicap:minicap.py:146 minicap installation finished
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls -l /data/local/tmp/rotationwatcher.jar
+DEBUG    airtest.core.android.rotation:rotation.py:49 install_rotationwatcher skipped
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [rotation_server]b&#x27;0&#x27;
+INFO     airtest.core.android.rotation:rotation.py:151 update orientation None-&gt;0
+DEBUG    airtest.core.android.cap_methods.minicap:minicap.py:371 update_rotation: 0
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell wm size
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop ro.sf.lcd_density
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getprop qemu.sf.lcd_density
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys SurfaceFlinger
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys input
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell getevent -p
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/minicap -n &#x27;airtest_minicap&#x27; -P 1440x2560@1440x2560/0 -s
+ERROR    airtest.core.android.cap_methods.screen_proxy:screen_proxy.py:56 b&#x27;&#x27;
+ERROR    airtest.core.android.cap_methods.screen_proxy:screen_proxy.py:57 b&#x27;CANNOT LINK EXECUTABLE &quot;/data/local/tmp/minicap&quot;: &quot;/data/local/tmp/minicap&quot; has text relocations (https://android.googlesource.com/platform/bionic/+/master/android-changes-for-ndk-developers.md#Text-Relocations-Enforced-for-API-level-23)\r\n&#x27;
+ERROR    airtest.core.android.cap_methods.screen_proxy:screen_proxy.py:60 Minicap setup up failed!
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys package com.netease.nie.yosemite
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 forward --no-rebind tcp:13586 localabstract:javacap_13586
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell pm path com.netease.nie.yosemite
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell CLASSPATH=/data/app/~~o0yi9_njiyb8RRLJBXpqbQ==/com.netease.nie.yosemite-SlQIkhPM5-VbLUUZadywVQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_13586 -lazy 2&gt;&amp;1
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [javacap_sever]b&#x27;Capture server listening on @javacap_13586&#x27;
+DEBUG    airtest.core.android.cap_methods.javacap:javacap.py:74 (1, 3, 0, 1440, 2560, 0, 0, 0, 1)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (746, 1178), &#x27;rectangle&#x27;: ((86, 118), (86, 2238), (1407, 2238), (1407, 118)), &#x27;confidence&#x27;: 0.7766159176826477}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.14 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (746, 1178), &#x27;rectangle&#x27;: ((86, 118), (86, 2238), (1407, 2238), (1407, 118)), &#x27;confidence&#x27;: 0.7766159176826477, &#x27;time&#x27;: 1.143198013305664}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288160934.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (166, 1850), &#x27;rectangle&#x27;: ((124.60000000000002, 1787.8000000000002), (124.60000000000002, 1912.8000000000002), (207.60000000000002, 1912.8000000000002), (207.60000000000002, 1787.8000000000002)), &#x27;confidence&#x27;: 0.9999997615814209}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (166, 1850), &#x27;rectangle&#x27;: ((124.60000000000002, 1787.8000000000002), (124.60000000000002, 1912.8000000000002), (207.60000000000002, 1912.8000000000002), (207.60000000000002, 1787.8000000000002)), &#x27;confidence&#x27;: 0.9999997615814209, &#x27;time&#x27;: 0.003991842269897461}
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ls -l /data/local/tmp/maxpresent.jar
+DEBUG    airtest.core.android.touch_methods.maxtouch:maxtouch.py:36 install_maxtouch skipped
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 forward --no-rebind tcp:17582 localabstract:maxpresent_17582
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_17582
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [airtouch_server]b&#x27;Metrics Message : 2560.0=====1440.0&#x27;
+DEBUG    airtest.utils.nbsp:nbsp.py:37 [airtouch_server]b&#x27;Start local socket (maxpresent_17582) server...&#x27;
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288172352.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (701, 2212), &#x27;rectangle&#x27;: ((344, 2112.56), (344, 2311.56), (1058, 2311.56), (1058, 2112.56)), &#x27;confidence&#x27;: 0.7243560552597046}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.43 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (701, 2212), &#x27;rectangle&#x27;: ((344, 2112.56), (344, 2311.56), (1058, 2311.56), (1058, 2112.56)), &#x27;confidence&#x27;: 0.7243560552597046, &#x27;time&#x27;: 0.42503905296325684}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288179250.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 2218), &#x27;rectangle&#x27;: ((383.32000000000005, 2121.88), (383.32000000000005, 2314.88), (998.32, 2314.88), (998.32, 2121.88)), &#x27;confidence&#x27;: 0.7418957352638245}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.46 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (690, 2218), &#x27;rectangle&#x27;: ((383.32000000000005, 2121.88), (383.32000000000005, 2314.88), (998.32, 2314.88), (998.32, 2121.88)), &#x27;confidence&#x27;: 0.7418957352638245, &#x27;time&#x27;: 0.46309685707092285}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288260454.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (667, 1451), &#x27;rectangle&#x27;: ((122, 1203.52), (122, 1699.52), (1213, 1699.52), (1213, 1203.52)), &#x27;confidence&#x27;: 0.2715206742286682}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.91 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (676, 1453), &#x27;rectangle&#x27;: ((55, 1170), (55, 1736), (1298, 1736), (1298, 1170)), &#x27;confidence&#x27;: 0.1976030319929123}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.20 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={&#x27;result&#x27;: (-88, 3086), &#x27;rectangle&#x27;: [(0, 495), (0, 2559), (504, 2559), (504, 495)], &#x27;confidence&#x27;: 0.4868323961272836}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.47 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.core.api:cv.py:196 &#x27;Target area is 5 times bigger or 0.2 times smaller than sch_img.&#x27;
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.55 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636, &#x27;time&#x27;: 0.5528473854064941}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288260454.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.53 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (716, 1255), &#x27;rectangle&#x27;: ((102, 975.52), (102, 1534.52), (1330, 1534.52), (1330, 975.52)), &#x27;confidence&#x27;: 0.7758063077926636, &#x27;time&#x27;: 0.525083065032959}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288272785.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (725, 1400), &#x27;rectangle&#x27;: ((533.2, 1335.96), (533.2, 1465.96), (918.2, 1465.96), (918.2, 1335.96)), &#x27;confidence&#x27;: 0.7225582599639893}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.55 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (725, 1400), &#x27;rectangle&#x27;: ((533.2, 1335.96), (533.2, 1465.96), (918.2, 1465.96), (918.2, 1335.96)), &#x27;confidence&#x27;: 0.7225582599639893, &#x27;time&#x27;: 0.5524325370788574}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288283062.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1228, 104), &#x27;rectangle&#x27;: ((1110.32, 71), (1110.32, 137), (1347.32, 137), (1347.32, 71)), &#x27;confidence&#x27;: 0.7525858879089355}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.14 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1228, 104), &#x27;rectangle&#x27;: ((1110.32, 71), (1110.32, 137), (1347.32, 137), (1347.32, 71)), &#x27;confidence&#x27;: 0.7525858879089355, &#x27;time&#x27;: 0.13590526580810547}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288305866.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1070, 23), &#x27;rectangle&#x27;: ((1004.6399999999999, 0), (1004.6399999999999, 47), (1136.6399999999999, 47), (1136.6399999999999, 0)), &#x27;confidence&#x27;: 0.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.25 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (114, 41), &#x27;rectangle&#x27;: ((0, 0), (0, 82), (228, 82), (228, 0)), &#x27;confidence&#x27;: 0.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.12 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1233, 103), &#x27;rectangle&#x27;: ((1124.6399999999999, 64), (1124.6399999999999, 142), (1341.6399999999999, 142), (1341.6399999999999, 64)), &#x27;confidence&#x27;: 0.7221882343292236}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.11 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1233, 103), &#x27;rectangle&#x27;: ((1124.6399999999999, 64), (1124.6399999999999, 142), (1341.6399999999999, 142), (1341.6399999999999, 64)), &#x27;confidence&#x27;: 0.7221882343292236, &#x27;time&#x27;: 0.11280465126037598}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288502690.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (867, 889), &#x27;rectangle&#x27;: ((413, 530.44), (413, 1248.44), (1321, 1248.44), (1321, 530.44)), &#x27;confidence&#x27;: 0.22258678078651428}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.12 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (778, 1181), &#x27;rectangle&#x27;: ((219, 739), (219, 1623), (1337, 1623), (1337, 739)), &#x27;confidence&#x27;: 0.1511397659778595}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.09 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={&#x27;result&#x27;: (357, 491), &#x27;rectangle&#x27;: [(0, 255), (0, 727), (844, 727), (844, 255)], &#x27;confidence&#x27;: 0.5694604814052582}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.42 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.39 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (715, 1317), &#x27;rectangle&#x27;: ((161, 879.44), (161, 1756.44), (1270, 1756.44), (1270, 879.44)), &#x27;confidence&#x27;: 0.7807093262672424}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.52 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (715, 1317), &#x27;rectangle&#x27;: ((161, 879.44), (161, 1756.44), (1270, 1756.44), (1270, 879.44)), &#x27;confidence&#x27;: 0.7807093262672424, &#x27;time&#x27;: 0.5242302417755127}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288890150.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7071280479431152}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.55 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7071280479431152, &#x27;time&#x27;: 0.5514576435089111}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288890150.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7071280479431152}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.59 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (690, 1078), &#x27;rectangle&#x27;: ((244, 966.8399999999999), (244, 1189.84), (1136, 1189.84), (1136, 966.8399999999999)), &#x27;confidence&#x27;: 0.7071280479431152, &#x27;time&#x27;: 0.5866436958312988}
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell dumpsys package com.netease.nie.yosemite
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell settings get secure default_input_method
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell ime list -a
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell am broadcast -a ADB_INPUT_TEXT --es msg &#x27;accion&#x27;
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell input keyevent ENTER
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288550917.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (173, 1206), &#x27;rectangle&#x27;: ((0, 1162.24), (0, 1251.24), (347, 1251.24), (347, 1162.24)), &#x27;confidence&#x27;: 0.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.07 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (490, 128), &#x27;rectangle&#x27;: ((0, 0), (0, 256), (980, 256), (980, 0)), &#x27;confidence&#x27;: 0.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.12 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (173, 1206), &#x27;rectangle&#x27;: ((0, 1162.24), (0, 1251.24), (347, 1251.24), (347, 1162.24)), &#x27;confidence&#x27;: 0.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.06 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (490, 128), &#x27;rectangle&#x27;: ((0, 0), (0, 256), (980, 256), (980, 0)), &#x27;confidence&#x27;: 0.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.11 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (705, 1413), &#x27;rectangle&#x27;: ((244, 1293.24), (244, 1534.24), (1166, 1534.24), (1166, 1293.24)), &#x27;confidence&#x27;: 0.7309521436691284}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.73 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (705, 1413), &#x27;rectangle&#x27;: ((244, 1293.24), (244, 1534.24), (1166, 1534.24), (1166, 1293.24)), &#x27;confidence&#x27;: 0.7309521436691284, &#x27;time&#x27;: 0.7269332408905029}
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell am broadcast -a ADB_INPUT_TEXT --es msg &#x27;Password123&#x27;
+DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 shell input keyevent ENTER
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644288614104.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1073, 1926), &#x27;rectangle&#x27;: ((880.3600000000001, 1861.12), (880.3600000000001, 1991.12), (1266.3600000000001, 1991.12), (1266.3600000000001, 1861.12)), &#x27;confidence&#x27;: 0.7411791682243347}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.57 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1073, 1926), &#x27;rectangle&#x27;: ((880.3600000000001, 1861.12), (880.3600000000001, 1991.12), (1266.3600000000001, 1991.12), (1266.3600000000001, 1861.12)), &#x27;confidence&#x27;: 0.7411791682243347, &#x27;time&#x27;: 0.5698516368865967}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289213456.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (277, 1331), &#x27;rectangle&#x27;: ((103, 1157.4), (103, 1505.4), (451, 1505.4), (451, 1157.4)), &#x27;confidence&#x27;: 0.7267849445343018}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.19 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (277, 1331), &#x27;rectangle&#x27;: ((103, 1157.4), (103, 1505.4), (451, 1505.4), (451, 1157.4)), &#x27;confidence&#x27;: 0.7267849445343018, &#x27;time&#x27;: 0.19110870361328125}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289220930.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (262, 1328), &#x27;rectangle&#x27;: ((87, 1150.52), (87, 1506.52), (437, 1506.52), (437, 1150.52)), &#x27;confidence&#x27;: 0.7700789570808411}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.31 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (262, 1328), &#x27;rectangle&#x27;: ((87, 1150.52), (87, 1506.52), (437, 1506.52), (437, 1150.52)), &#x27;confidence&#x27;: 0.7700789570808411, &#x27;time&#x27;: 0.3149678707122803}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289252617.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (869, 845), &#x27;rectangle&#x27;: ((476, 143), (476, 1547), (1262, 1547), (1262, 143)), &#x27;confidence&#x27;: 0.1809944063425064}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.27 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (678, 1165), &#x27;rectangle&#x27;: ((47, 40), (47, 2291), (1310, 2291), (1310, 40)), &#x27;confidence&#x27;: 0.06934995949268341}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.11 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.core.api:cv.py:196 &#x27;Target area is 5 times bigger or 0.2 times smaller than sch_img.&#x27;
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.core.api:cv.py:196 &#x27;OpenCV error in _find_homography()...&#x27;
+DEBUG    airtest.core.api:cv.py:155 match result: None
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289261063.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1031, 2397), &#x27;rectangle&#x27;: ((757.04, 2347.44), (757.04, 2448.44), (1306.04, 2448.44), (1306.04, 2347.44)), &#x27;confidence&#x27;: 0.7460118532180786}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.54 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1031, 2397), &#x27;rectangle&#x27;: ((757.04, 2347.44), (757.04, 2448.44), (1306.04, 2448.44), (1306.04, 2347.44)), &#x27;confidence&#x27;: 0.7460118532180786, &#x27;time&#x27;: 0.5399930477142334}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289261063.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1031, 2397), &#x27;rectangle&#x27;: ((757.04, 2347.44), (757.04, 2448.44), (1306.04, 2448.44), (1306.04, 2347.44)), &#x27;confidence&#x27;: 0.7460118532180786}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.56 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1031, 2397), &#x27;rectangle&#x27;: ((757.04, 2347.44), (757.04, 2448.44), (1306.04, 2448.44), (1306.04, 2347.44)), &#x27;confidence&#x27;: 0.7460118532180786, &#x27;time&#x27;: 0.5604805946350098}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289291793.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1167, 2222), &#x27;rectangle&#x27;: ((1066.4, 2178.76), (1066.4, 2266.76), (1268.4, 2266.76), (1268.4, 2178.76)), &#x27;confidence&#x27;: 0.7179552912712097}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.13 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1167, 2222), &#x27;rectangle&#x27;: ((1066.4, 2178.76), (1066.4, 2266.76), (1268.4, 2266.76), (1268.4, 2178.76)), &#x27;confidence&#x27;: 0.7179552912712097, &#x27;time&#x27;: 0.1283125877380371}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289304883.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1176, 2219), &#x27;rectangle&#x27;: ((1083.48, 2184.88), (1083.48, 2254.88), (1269.48, 2254.88), (1269.48, 2184.88)), &#x27;confidence&#x27;: 0.7454342842102051}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.09 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1176, 2219), &#x27;rectangle&#x27;: ((1083.48, 2184.88), (1083.48, 2254.88), (1269.48, 2254.88), (1269.48, 2184.88)), &#x27;confidence&#x27;: 0.7454342842102051, &#x27;time&#x27;: 0.08793091773986816}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289351729.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (746, 542), &#x27;rectangle&#x27;: ((334, 305), (334, 779), (1159, 779), (1159, 305)), &#x27;confidence&#x27;: 0.720680832862854}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.57 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (746, 542), &#x27;rectangle&#x27;: ((334, 305), (334, 779), (1159, 779), (1159, 305)), &#x27;confidence&#x27;: 0.720680832862854, &#x27;time&#x27;: 0.5686647891998291}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289324889.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (747, 1855), &#x27;rectangle&#x27;: ((387.36, 1721.0), (387.36, 1989.0), (1107.3600000000001, 1989.0), (1107.3600000000001, 1721.0)), &#x27;confidence&#x27;: 0.7689165472984314}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.62 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (747, 1855), &#x27;rectangle&#x27;: ((387.36, 1721.0), (387.36, 1989.0), (1107.3600000000001, 1989.0), (1107.3600000000001, 1721.0)), &#x27;confidence&#x27;: 0.7689165472984314, &#x27;time&#x27;: 0.619147539138794}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289399878.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (714, 1962), &#x27;rectangle&#x27;: ((400.24, 1879.56), (400.24, 2044.56), (1028.24, 2044.56), (1028.24, 1879.56)), &#x27;confidence&#x27;: 0.7212968468666077}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.44 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (714, 1962), &#x27;rectangle&#x27;: ((400.24, 1879.56), (400.24, 2044.56), (1028.24, 2044.56), (1028.24, 1879.56)), &#x27;confidence&#x27;: 0.7212968468666077, &#x27;time&#x27;: 0.444227933883667}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289420121.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (814, 295), &#x27;rectangle&#x27;: ((330, 221.4799999999999), (330, 370.4799999999999), (1299, 370.4799999999999), (1299, 221.4799999999999)), &#x27;confidence&#x27;: 0.7881494164466858}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.55 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (814, 295), &#x27;rectangle&#x27;: ((330, 221.4799999999999), (330, 370.4799999999999), (1299, 370.4799999999999), (1299, 221.4799999999999)), &#x27;confidence&#x27;: 0.7881494164466858, &#x27;time&#x27;: 0.5520815849304199}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289425661.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1125, 195), &#x27;rectangle&#x27;: ((1063.92, 143.5999999999999), (1063.92, 247.5999999999999), (1187.92, 247.5999999999999), (1187.92, 143.5999999999999)), &#x27;confidence&#x27;: 0.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (62, 52), &#x27;rectangle&#x27;: ((0, 0), (0, 104), (124, 104), (124, 0)), &#x27;confidence&#x27;: 0.0}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.14 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1214, 293), &#x27;rectangle&#x27;: ((1152.92, 241.5999999999999), (1152.92, 345.5999999999999), (1276.92, 345.5999999999999), (1276.92, 241.5999999999999)), &#x27;confidence&#x27;: 0.9999986886978149}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1214, 293), &#x27;rectangle&#x27;: ((1152.92, 241.5999999999999), (1152.92, 345.5999999999999), (1276.92, 345.5999999999999), (1276.92, 241.5999999999999)), &#x27;confidence&#x27;: 0.9999986886978149, &#x27;time&#x27;: 0.0050351619720458984}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289436082.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (700, 1958), &#x27;rectangle&#x27;: ((405.84000000000003, 1872.6799999999998), (405.84000000000003, 2043.6799999999998), (994.84, 2043.6799999999998), (994.84, 1872.6799999999998)), &#x27;confidence&#x27;: 0.7247382402420044}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.44 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (700, 1958), &#x27;rectangle&#x27;: ((405.84000000000003, 1872.6799999999998), (405.84000000000003, 2043.6799999999998), (994.84, 2043.6799999999998), (994.84, 1872.6799999999998)), &#x27;confidence&#x27;: 0.7247382402420044, &#x27;time&#x27;: 0.44124794006347656}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644289436082.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (700, 1958), &#x27;rectangle&#x27;: ((405.84000000000003, 1872.6799999999998), (405.84000000000003, 2043.6799999999998), (994.84, 2043.6799999999998), (994.84, 1872.6799999999998)), &#x27;confidence&#x27;: 0.7247382402420044}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.43 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (700, 1958), &#x27;rectangle&#x27;: ((405.84000000000003, 1872.6799999999998), (405.84000000000003, 2043.6799999999998), (994.84, 2043.6799999999998), (994.84, 1872.6799999999998)), &#x27;confidence&#x27;: 0.7247382402420044, &#x27;time&#x27;: 0.42627811431884766}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644399269774.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1259, 126), &#x27;rectangle&#x27;: ((1226.48, 78), (1226.48, 175), (1293.48, 175), (1293.48, 78)), &#x27;confidence&#x27;: 0.42360255122184753}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.02 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (711, 1933), &#x27;rectangle&#x27;: ((680, 1888), (680, 1978), (742, 1978), (742, 1888)), &#x27;confidence&#x27;: 0.4631665349006653}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.13 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.10 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.core.api:cv.py:196 &#x27;Not enough feature points in input images !&#x27;
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1259, 126), &#x27;rectangle&#x27;: ((1226.48, 78), (1226.48, 175), (1293.48, 175), (1293.48, 78)), &#x27;confidence&#x27;: 0.42360255122184753}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.03 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={&#x27;result&#x27;: (710, 1928), &#x27;rectangle&#x27;: ((679, 1883), (679, 1973), (741, 1973), (741, 1883)), &#x27;confidence&#x27;: 0.46784114837646484}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.14 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.82 s.
+DEBUG    airtest.core.api:cv.py:189 try match with BRISKMatching
+DEBUG    airtest.core.api:cv.py:196 &#x27;Not enough feature points in input images !&#x27;
+DEBUG    airtest.core.api:cv.py:155 match result: None
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1356, 65), &#x27;rectangle&#x27;: ((1328.48, 24), (1328.48, 106), (1384.48, 106), (1384.48, 24)), &#x27;confidence&#x27;: 0.9220749735832214}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.01 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1356, 65), &#x27;rectangle&#x27;: ((1328.48, 24), (1328.48, 106), (1384.48, 106), (1384.48, 24)), &#x27;confidence&#x27;: 0.9220749735832214, &#x27;time&#x27;: 0.012227058410644531}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644399269774.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1356, 65), &#x27;rectangle&#x27;: ((1328.48, 24), (1328.48, 106), (1384.48, 106), (1384.48, 24)), &#x27;confidence&#x27;: 0.9220749735832214}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1356, 65), &#x27;rectangle&#x27;: ((1328.48, 24), (1328.48, 106), (1384.48, 106), (1384.48, 24)), &#x27;confidence&#x27;: 0.9220749735832214, &#x27;time&#x27;: 0.0019829273223876953}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644399306723.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1111, 2042), &#x27;rectangle&#x27;: ((958.56, 1961.76), (958.56, 2122.76), (1263.56, 2122.76), (1263.56, 1961.76)), &#x27;confidence&#x27;: 0.7082520723342896}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.32 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1111, 2042), &#x27;rectangle&#x27;: ((958.56, 1961.76), (958.56, 2122.76), (1263.56, 2122.76), (1263.56, 1961.76)), &#x27;confidence&#x27;: 0.7082520723342896, &#x27;time&#x27;: 0.31933164596557617}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(tpl1644399306723.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:182 [MSTemplatePre] threshold=0.7, result={&#x27;result&#x27;: (1111, 2042), &#x27;rectangle&#x27;: ((958.56, 1961.76), (958.56, 2122.76), (1263.56, 2122.76), (1263.56, 1961.76)), &#x27;confidence&#x27;: 0.7082520723342896}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.30 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {&#x27;result&#x27;: (1111, 2042), &#x27;rectangle&#x27;: ((958.56, 1961.76), (958.56, 2122.76), (1263.56, 2122.76), (1263.56, 1961.76)), &#x27;confidence&#x27;: 0.7082520723342896, &#x27;time&#x27;: 0.29856133460998535}<br/> ----------------------------Captured stderr teardown---------------------------- <br/>[04:07:06][DEBUG]&lt;airtest.core.android.adb&gt; C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 uninstall com.gsn.worldwinner
+<br/> -----------------------------Captured log teardown------------------------------ <br/>DEBUG    airtest.core.android.adb:adb.py:147 C:\Users\RH0539\AppData\Local\Programs\Python\Python38\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s emulator-5554 uninstall com.gsn.worldwinner<br/></div></td></tr></tbody></table></body></html>

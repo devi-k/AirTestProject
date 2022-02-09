@@ -62,6 +62,9 @@ def test_startGame(setup):
     # added
     wait(Template(r"tpl1644399269774.png", record_pos=(0.442, -0.844), resolution=(1440, 2560)))
     touch(Template(r"tpl1644399269774.png", record_pos=(0.442, -0.844), resolution=(1440, 2560)))
+    wait(Template(r"tpl1644289480019.png", record_pos=(-0.002, 0.266), resolution=(1440, 2560)))
+    exists(Template(r"tpl1644289480019.png", record_pos=(-0.002, 0.266), resolution=(1440, 2560)))
+    touch(Template(r"tpl1644392132967.png", record_pos=(0.242, 0.258), resolution=(1440, 2560)))
     wait(Template(r"tpl1644399306723.png", record_pos=(0.274, 0.529), resolution=(1440, 2560)))
     exists(Template(r"tpl1644399306723.png", record_pos=(0.274, 0.529), resolution=(1440, 2560)))
     # ..
