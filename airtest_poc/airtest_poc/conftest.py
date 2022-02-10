@@ -11,8 +11,8 @@ auto_setup(__file__, logdir=True)
 import os
 
 ST.LOG_FILE = "log.txt"
-set_logdir(r'C:\Users\RH0539\Desktop\AirTestProject\airtest_poc\airtest_poc\proj_test\tests\Login_test.air\log')
-
+#set_logdir(r'C:\Users\RH0539\Desktop\AirTestProject\airtest_poc\airtest_poc\proj_test\tests\Login_test.air\log')
+set_logdir(r'D:\log')
 #@pytest.fixture(scope="session")
 #@pytest.fixture(scope="module")
 @pytest.fixture
@@ -22,7 +22,8 @@ def setup():
     start_app("com.gsn.worldwinner")
     
     yield
-    simple_report(__file__,logpath=True,logfile=r"C:\Users\RH0539\Desktop\AirTestProject\airtest_poc\airtest_poc\proj_test\tests\Login_test.air\log\log.txt",output=r"C:\Users\RH0539\Desktop\AirTestProject\airtest_poc\airtest_poc\proj_test\tests\Login_test.air\log\report.html")
+    #simple_report(__file__,logpath=True,logfile=r"C:\Users\RH0539\Desktop\AirTestProject\airtest_poc\airtest_poc\proj_test\tests\Login_test.air\log\log.txt",output=r"C:\Users\RH0539\Desktop\AirTestProject\airtest_poc\airtest_poc\proj_test\tests\Login_test.air\log\report.html")
+    simple_report(__file__,logpath=True,logfile=r"D:\log\log.txt",output=r"D:\log\report.html")
     uninstall("com.gsn.worldwinner")
 
     

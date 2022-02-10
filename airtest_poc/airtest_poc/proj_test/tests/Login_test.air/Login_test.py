@@ -5,7 +5,7 @@ from airtest.core.api import *
 
 def test_login(setup):
     sleep(120.0)       
-    wait(Template(r"tpl1644288126045.png", record_pos=(0.019, -0.074), resolution=(1440, 2560)))
+    wait(Template(r"tpl1644288160934.png", record_pos=(-0.385, 0.395), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288160934.png", record_pos=(-0.385, 0.395), resolution=(1440, 2560)))
     wait(Template(r"tpl1644288172352.png", record_pos=(-0.014, 0.649), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288179250.png", record_pos=(-0.022, 0.652), resolution=(1440, 2560)))
@@ -17,16 +17,19 @@ def test_login(setup):
     wait(Template(r"tpl1644288502690.png", record_pos=(-0.002, 0.026), resolution=(1440, 2560)))
     wait(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
-    # text("accion")
+    wait(Template(r"tpl1644469091319.png", record_pos=(-0.002, -0.106), resolution=(1440, 2560)))
+    text("accionlabs")
     touch(Template(r"tpl1644288550917.png", record_pos=(0.003, 0.096), resolution=(1440, 2560)))
+    wait(Template(r"tpl1644469195863.png", record_pos=(0.001, 0.007), resolution=(1440, 2560)))
     text("Password123")
     touch(Template(r"tpl1644288614104.png", record_pos=(0.244, 0.448), resolution=(1440, 2560)))
-    assert_exists(Template(r"tpl1644297157499.png", record_pos=(0.027, -0.013), resolution=(1440, 2560)), "Verify user name validation")
-
+    assert_exists(Template(r"tpl1644485252051.png", record_pos=(0.077, 0.215), resolution=(1440, 2560)), "Verify Invalid username /Password combo")
+    
 
 def test_startGame(setup):
-    sleep(80.0)
-    wait(Template(r"tpl1644288126045.png", record_pos=(0.019, -0.074), resolution=(1440, 2560)))
+    sleep(120.0)
+    # wait(Template(r"tpl1644288126045.png", record_pos=(0.019, -0.074), resolution=(1440, 2560)))
+    wait(Template(r"tpl1644288160934.png", record_pos=(-0.385, 0.395), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288160934.png", record_pos=(-0.385, 0.395), resolution=(1440, 2560)))
     wait(Template(r"tpl1644288172352.png", record_pos=(-0.014, 0.649), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288179250.png", record_pos=(-0.022, 0.652), resolution=(1440, 2560)))
@@ -38,8 +41,10 @@ def test_startGame(setup):
     wait(Template(r"tpl1644288502690.png", record_pos=(-0.002, 0.026), resolution=(1440, 2560)))
     wait(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
+    wait(Template(r"tpl1644469091319.png", record_pos=(-0.002, -0.106), resolution=(1440, 2560)))
     text("accion")
     touch(Template(r"tpl1644288550917.png", record_pos=(0.003, 0.096), resolution=(1440, 2560)))
+    wait(Template(r"tpl1644469195863.png", record_pos=(0.001, 0.007), resolution=(1440, 2560)))
     text("Password123")
     touch(Template(r"tpl1644288614104.png", record_pos=(0.244, 0.448), resolution=(1440, 2560)))
     sleep(30.0)
