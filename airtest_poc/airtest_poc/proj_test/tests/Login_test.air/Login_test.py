@@ -3,7 +3,7 @@ __author__ = "RH0539"
 # import pytest
 from airtest.core.api import *
 
-def test_login(setup):
+def login(setup):
     sleep(120.0)       
     wait(Template(r"tpl1644288160934.png", record_pos=(-0.385, 0.395), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288160934.png", record_pos=(-0.385, 0.395), resolution=(1440, 2560)))
