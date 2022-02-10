@@ -24,8 +24,7 @@ def login(setup):
     text("Password123")
     touch(Template(r"tpl1644288614104.png", record_pos=(0.244, 0.448), resolution=(1440, 2560)))
     assert_exists(Template(r"tpl1644485252051.png", record_pos=(0.077, 0.215), resolution=(1440, 2560)), "Verify Invalid username /Password combo")
-    
-
+       
 def test_startGame(setup):
     sleep(120.0)
     # wait(Template(r"tpl1644288126045.png", record_pos=(0.019, -0.074), resolution=(1440, 2560)))
@@ -38,8 +37,8 @@ def test_startGame(setup):
     touch(Template(r"tpl1644288272785.png", record_pos=(0.005, 0.084), resolution=(1440, 2560)))
     wait(Template(r"tpl1644288283062.png", record_pos=(0.353, -0.817), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288305866.png", record_pos=(0.356, -0.817), resolution=(1440, 2560)))
+    sleep(6.0)
     wait(Template(r"tpl1644288502690.png", record_pos=(-0.002, 0.026), resolution=(1440, 2560)))
-    wait(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
     wait(Template(r"tpl1644469091319.png", record_pos=(-0.002, -0.106), resolution=(1440, 2560)))
     text("accion")
@@ -55,18 +54,18 @@ def test_startGame(setup):
     touch(Template(r"tpl1644289261063.png", record_pos=(0.216, 0.776), resolution=(1440, 2560)))
     wait(Template(r"tpl1644289291793.png", record_pos=(0.31, 0.654), resolution=(1440, 2560)))
     touch(Template(r"tpl1644289304883.png", record_pos=(0.317, 0.652), resolution=(1440, 2560)))
-    wait(Template(r"tpl1644289351729.png", record_pos=(0.013, -0.585), resolution=(1440, 2560)))
-    sleep(60.0)
+    # sleep(60.0)
     wait(Template(r"tpl1644289324889.png", record_pos=(0.019, 0.4), resolution=(1440, 2560)))
-    sleep(60.0)
+    sleep(120.0)
     touch(Template(r"tpl1644289399878.png", record_pos=(-0.004, 0.474), resolution=(1440, 2560)))
-    wait(Template(r"tpl1644289420121.png", record_pos=(0.067, -0.683), resolution=(1440, 2560)))
+    exists(Template(r"tpl1644289420121.png", record_pos=(0.067, -0.683), resolution=(1440, 2560)))
     touch(Template(r"tpl1644289425661.png", record_pos=(0.343, -0.685), resolution=(1440, 2560)))
     wait(Template(r"tpl1644289436082.png", record_pos=(-0.014, 0.472), resolution=(1440, 2560)))
     touch(Template(r"tpl1644289436082.png", record_pos=(-0.014, 0.472), resolution=(1440, 2560)))
     # added
     wait(Template(r"tpl1644399269774.png", record_pos=(0.442, -0.844), resolution=(1440, 2560)))
     touch(Template(r"tpl1644399269774.png", record_pos=(0.442, -0.844), resolution=(1440, 2560)))
+    sleep(6.0)
     wait(Template(r"tpl1644289480019.png", record_pos=(-0.002, 0.266), resolution=(1440, 2560)))
     exists(Template(r"tpl1644289480019.png", record_pos=(-0.002, 0.266), resolution=(1440, 2560)))
     touch(Template(r"tpl1644392132967.png", record_pos=(0.242, 0.258), resolution=(1440, 2560)))
