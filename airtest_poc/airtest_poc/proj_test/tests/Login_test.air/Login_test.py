@@ -2,6 +2,8 @@
 __author__ = "RH0539"
 # import pytest
 from airtest.core.api import *
+from poco.drivers.unity3d import UnityPoco
+poco = UnityPoco()
 
 def login(setup):
     sleep(120.0)       
@@ -18,10 +20,10 @@ def login(setup):
     wait(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
     wait(Template(r"tpl1644469091319.png", record_pos=(-0.002, -0.106), resolution=(1440, 2560)))
-    text("accionlabs")
+    text("accionlabs",enter=True)
     touch(Template(r"tpl1644288550917.png", record_pos=(0.003, 0.096), resolution=(1440, 2560)))
     wait(Template(r"tpl1644469195863.png", record_pos=(0.001, 0.007), resolution=(1440, 2560)))
-    text("Password123")
+    text("Password123",enter=False)
     touch(Template(r"tpl1644288614104.png", record_pos=(0.244, 0.448), resolution=(1440, 2560)))
     assert_exists(Template(r"tpl1644485252051.png", record_pos=(0.077, 0.215), resolution=(1440, 2560)), "Verify Invalid username /Password combo")
        
@@ -40,11 +42,11 @@ def test_startGame(setup):
     sleep(6.0)
     wait(Template(r"tpl1644288502690.png", record_pos=(-0.002, 0.026), resolution=(1440, 2560)))
     touch(Template(r"tpl1644288890150.png", record_pos=(-0.022, -0.139), resolution=(1440, 2560)))
-    wait(Template(r"tpl1644469091319.png", record_pos=(-0.002, -0.106), resolution=(1440, 2560)))
-    text("accion")
+    #wait(Template(r"tpl1644469091319.png", record_pos=(-0.002, -0.106), resolution=(1440, 2560)))
+    text("accion", enter=True)
     touch(Template(r"tpl1644288550917.png", record_pos=(0.003, 0.096), resolution=(1440, 2560)))
     wait(Template(r"tpl1644469195863.png", record_pos=(0.001, 0.007), resolution=(1440, 2560)))
-    text("Password123")
+    text("Password123",enter=False)
     touch(Template(r"tpl1644288614104.png", record_pos=(0.244, 0.448), resolution=(1440, 2560)))
     sleep(30.0)
     wait(Template(r"tpl1644289213456.png", record_pos=(-0.309, 0.035), resolution=(1440, 2560)))
@@ -70,7 +72,29 @@ def test_startGame(setup):
     exists(Template(r"tpl1644289480019.png", record_pos=(-0.002, 0.266), resolution=(1440, 2560)))
     touch(Template(r"tpl1644392132967.png", record_pos=(0.242, 0.258), resolution=(1440, 2560)))
     wait(Template(r"tpl1644399306723.png", record_pos=(0.274, 0.529), resolution=(1440, 2560)))
-    exists(Template(r"tpl1644399306723.png", record_pos=(0.274, 0.529), resolution=(1440, 2560)))
+    assert_exists(Template(r"tpl1644399306723.png", record_pos=(0.274, 0.529), resolution=(1440, 2560)),"Verify Bingo button is displayed")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # ..
     """wait(Template(r"tpl1644289453445.png", record_pos=(0.444, -0.842), resolution=(1440, 2560)))
     touch(Template(r"tpl1644289465656.png", record_pos=(0.444, -0.844), resolution=(1440, 2560)))
